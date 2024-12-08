@@ -1,0 +1,64 @@
+.flatpickr-input {
+    width: 272px;
+    height: 40px;
+    color: #2E2F42;
+    font-family: Montserrat;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: 1px solid #808080;
+    box-sizing: border-box;
+}
+
+button[data-start] {
+    display: inline-flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background: #4E75FF;
+    color: #fff;
+}
+
+button:disabled,
+button[disabled]{
+    background: #CFCFCF;
+    color: #989898;
+}
+
+button:hover:not([disabled])  {
+    background: #6C8CFF;
+}
+
+.timer {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.field .value {
+    color: #2E2F42;
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0.04em;
+}
+
+.field .label {
+    color: #2E2F42;
+    font-size: 16px;
+    line-height: 1.5;
+}
